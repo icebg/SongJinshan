@@ -1,0 +1,29 @@
+Package: man-db
+Status: install ok half-configured
+Priority: important
+Section: doc
+Installed-Size: 2112
+Maintainer: Colin Watson <cjwatson@debian.org>
+Architecture: i386
+Multi-Arch: foreign
+Version: 2.7.5-1
+Config-Version: 2.7.5-1
+Replaces: man, manpages-de (<< 0.5-4), manpages-zh (<< 1.5.2-1.1), nlsutils
+Provides: man, man-browser
+Depends: groff-base (>= 1.18.1.1-15), bsdmainutils, debconf (>= 1.2.0) | debconf-2.0, libc6 (>= 2.17), libgdbm3 (>= 1.8.3), libpipeline1 (>= 1.4.0), zlib1g (>= 1:1.1.4)
+Pre-Depends: dpkg (>= 1.16.1~)
+Suggests: groff, less, www-browser
+Breaks: manpages-zh (<< 1.5.2-1.1)
+Conflicts: man, suidmanager (<< 0.50)
+Conffiles:
+ /etc/cron.daily/man-db e467745743809f974051c3ec5b9cd022
+ /etc/cron.weekly/man-db 9527d2000fb1f221dbcecb75467a3e49
+ /etc/manpath.config 1098290101bb4346489b1efeefb67d70
+Description: on-line manual pager
+ This package provides the man command, the primary way of examining the
+ on-line help files (manual pages). Other utilities provided include the
+ whatis and apropos commands for searching the manual page database, the
+ manpath utility for determining the manual page search path, and the
+ maintenance utilities mandb, catman and zsoelim. man-db uses the groff
+ suite of programs to format and display the manual pages.
+Homepage: http://man-db.nongnu.org/

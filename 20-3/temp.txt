@@ -1,0 +1,27 @@
+install: /usr/lib/gcc/i686-linux-gnu/5/
+programs: =/usr/lib/gcc/i686-linux-gnu/5/
+		:/usr/lib/gcc/i686-linux-gnu/5/
+		:/usr/lib/gcc/i686-linux-gnu/
+		:/usr/lib/gcc/i686-linux-gnu/5/
+		:/usr/lib/gcc/i686-linux-gnu/
+		:/usr/lib/gcc/i686-linux-gnu/5/../../../../i686-linux-gnu/bin/i686-linux-gnu/5/
+		:/usr/lib/gcc/i686-linux-gnu/5/../../../../i686-linux-gnu/bin/i386-linux-gnu/
+		:/usr/lib/gcc/i686-linux-gnu/5/../../../../i686-linux-gnu/bin/
+libraries: =/usr/lib/gcc/i686-linux-gnu/5/
+		:/usr/lib/gcc/i686-linux-gnu/5/../../../../i686-linux-gnu/lib/i686-linux-gnu/5/
+		:/usr/lib/gcc/i686-linux-gnu/5/../../../../i686-linux-gnu/lib/i386-linux-gnu/
+		:/usr/lib/gcc/i686-linux-gnu/5/../../../../i686-linux-gnu/lib/../lib/
+		:/usr/lib/gcc/i686-linux-gnu/5/../../../i686-linux-gnu/5/
+		:/usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/
+		:/usr/lib/gcc/i686-linux-gnu/5/../../../../lib/
+		:/lib/i686-linux-gnu/5/
+		:/lib/i386-linux-gnu/
+		:/lib/../lib/
+		:/usr/lib/i686-linux-gnu/5/
+		:/usr/lib/i386-linux-gnu/
+		:/usr/lib/../lib/
+		:/usr/lib/gcc/i686-linux-gnu/5/../../../../i686-linux-gnu/lib/
+		:/usr/lib/gcc/i686-linux-gnu/5/../../../
+		:/lib/
+		:/usr/lib/
+
