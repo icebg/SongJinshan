@@ -48,6 +48,7 @@ int main(int argc, char *argv[])
 	pthread_create(&cid, NULL, consumer, NULL);//创建线程,执行函数体consumer
 	pthread_join(pid, NULL);//终止线程pid
 	pthread_join(cid, NULL);//终止线程cid
+	printf("fuck!\n");
 	sem_destroy(&blank_number);//释放与信号量blank_number相关的资源
 	sem_destroy(&product_number);//释放与信号量product_number相关的资源
 	return 0;
